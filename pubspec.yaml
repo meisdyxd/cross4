@@ -1,0 +1,25 @@
+name: lab4_api_bloc_home
+description: Лабораторная работа №4 — API и BLoC для первого экрана.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.9.0
+  equatable: ^2.0.8
+  flutter_bloc: ^9.1.1
+  talker_flutter: ^5.1.20
+  talker_dio_logger: ^5.1.20
+  talker_bloc_logger: ^5.1.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
